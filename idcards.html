@@ -1,0 +1,20 @@
+<header>Student ID Card</header>
+
+<div class="card">
+
+<h3 id="studentName"></h3>
+
+<p>Department: Computer Science</p>
+
+<p>Level: 100</p>
+
+<img id="photo" width="120">
+
+</div>
+
+<script>
+
+document.getElementById("studentName").innerText =
+localStorage.getItem("studentName")
+
+</script>
